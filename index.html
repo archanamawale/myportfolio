@@ -3,351 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-<style>
-    body {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #fff;
-        color: #080808;
-    }
-    .container {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-    }
-
-    .containernv {
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-        text-align: center;
-    }
-    
-
-    header {
-        background: #050505;
-        color: #16aaee;
-        padding-top: 30px;
-        min-height: 200px;
-        border-bottom: #16aaee 5px solid;
-    }
-    header h1 {
-        text-align: center;
-    }
-    header h4 {
-        text-align: center;
-    }
-    
-
-    nav {
-        float: center;
-        padding-top: 25px;
-    
-    }
-    nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-    nav ul li{
-        display: inline-flex;
-        margin-left: 30px;
-    }
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    nav ul li a:hover {
-        color: #16aaee;
-    }
-    #about {
-        padding: 20px;
-        background: #fff;
-        margin-top: 20px;
-        border-radius: 5px;
-    }
-
-#about h2 {
-    margin-bottom: 20px;
-}
-
-#portfolio {
-    padding: 20px;
-    background: #fff;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.card mb-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.project {    
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-.project img {
-    float: left;
-    margin-right: 20px;
-    border: 2px solid #16aaee;
-    border-radius: 5px;
-}
-.project h3 {
-    margin: 0;
-}
-.project p {
-    margin-top: 5px;
-}
-.tech img {
-    float: left;
-    margin-right: 20px;
-    border: 2px solid #16aaee;
-    border-radius: 5px;
-}
-
-#contact {
-    padding: 20px;
-    background: #fff;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-#contact form input[type="text"],
-#contact form input[type="email"],
-#contact form textarea {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-#contact form input[type="submit"]{
-    background: #16aaee;
-    border-radius:#0c3f57;
-    color: #fff;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-#contact form input[type="submit"]:hover {
-    background: #0c3f57;
-}
-
-.skills {
-    float: center;
-
-}
-
-footer {
-    background-color: #050505;
-    border-top: #16aaee 5px solid;
-    min-height: 10px;
-    color: #fff;
-}
-</style>
+    <title>Announcements</title>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 <body>
-    <header class="sticky-top">
-        <div class="containernv">        
-            <h1>ARCHANA MAWALE</h1>
-            <h4>Systems Engineer | TCS DIGITAL (INDIA)</h4>
-            <br>
-              
-              <nav>                 
-                <ul>
-                    <li><a class="nav-link active" href="#about">ABOUT</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#technicalskills">TECHNICAL SKILLS</a></li>
-                    <li><a href="#skills">SKILLS & ACHIEVEMENTS</a></li>
-                    <li><a href="#hobbies">HOBBIES</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    
+    <div class="container" style="padding-bottom: 10px;">
+        <img src="announcementrs2.png" class="rounded float-start">
+        <img src="announcementrs2.png" class="rounded float-end">
+        <h1 class="text-secondary fw-bold" style="text-align: center; padding-top: 30px;" >ANNOUNCEMENTS</h1>
+        <h4 style="text-align: center;" class="text-dark"><i>Help Guide</i></h4>
+    </div>
+    
 
-    <section id="about">
-        <div class="container">
-            <h2 style="color: #16aaee;">ABOUT ME</h2>
-            <p>A computer science graduate, self-driven, indefatigable, and fondly anticiapting using my analytical and technical skills to serve the current organization, I am working in, along with solving and accepting challenges innovatively.</p>
-        </div>
-    </section>
-    <hr>
+    <div class="container" style="padding-top: 20px;"><hr>
+        <h5 class="text-primary fw-bold">OVERVIEW:</h5>
+        The announcements feature is introduced to aid users stay informed with crucial updates, information and warnings related to the Group Directory application, ensuring you never miss a beat. 
+        This platform, only visible to the administrators, allows to create, edit, and remove announcements promptly, ensuring that our users are always up-to-date with the latest development activities- maintainence, patching, implementing changes, and more.
+        <br><br>
 
-<section id="myportfolio">
-        <div class="container">
-            <h2 style="color: #16aaee;">PORTFOLIO</h2>
-            <br>
-        <div style="display: inline-flex;">
-        <div class="card mb-3" style="max-width: 600px; height: 400px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="samaritan.jpg" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Samaritan- Your NeedMate</h5>
-                        <p class="card-text">An android application that aims to aid people in need with its functionalities like sending current location to your emergency contacts using text message or via whatsapp or contacting them directly. Also, using this app, one can locate themselves, nearby police stations, hospitals, etc., in just one click.</p>
-                        <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary">Click here to view the project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h5 class="text-primary fw-bold">KEY FEATURES:</h5>
+            <ul>
+                <li><i>Create Announcements with ease: </i>Announcements with the defined type, visibility and active durations.</li>
+                <li><i>Flexibility to choose visibility Options:</i> At Global level or Specific page</li> 
+                <li><i>Comprehensive Overview: </i>All the announcements at-a-glance, both active and expired.</li>
+                <li><i>Streamlined Communication:</i> All the users around the globe will get notified with just creating an announcement </li>
+    
+            </ul>
 
-            
-            <div class="portfolio">
-                <div class="card mb-3" style="max-width: 600px;height: 400px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="portfolio.jpg" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
+	    <h5 class="text-primary fw-bold">WORKFLOW:</h5><br>
+
+
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100"style="justify-content: center;">
                             <div class="card-body">
-                                <h5 class="card-title">My Portfolio</h5>
-                                <p class="card-text">Created a portfolio website using my skills on HTML and CSS. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <br>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                                <a href="https://archanamawale.github.io/my_po/" target="_blank" class="btn btn-primary">Click here to view the project</a>
+                            <h5 class="card-title text-warning fw-bold" style="text-align: center;">Creating Announcements:</h5><hr>
+                            <p class="card-text">To create an announcement, click <img src="create.JPG"> and fill in the mandatory details in the new pop-up window.<br>
+                                <strong><label style="color: red;">*</label>Title:</strong> To add the title to the announcement.<br>
+                                <strong><label style="color: red;">*</label>Short Content:</strong> To display about the announcement in brief<br>
+                                <strong>Content:</strong> To let the users know about the announcement in detail. <i>However, this is not a mandatory field.</i><br>
+                                <strong><label style="color: red;">*</label>Type:</strong> This specifies the type of announcements whether informative or warning.<br>
+                                <strong><label style="color: red;">*</label>Start Date & End Date:</strong> This defines the duration of an announcement.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-              
-      
-    </div>  
-    <br>   
-</section>
-<hr>
-    <!-- <section id="portfolio">
-        <div class="container">
-            <h2 style="color: #16aaee;">PORTFOLIO</h2>
-            <div class="project">
-                <img src="samaritan.jpg" alt="Samaritan Project" width="200" height="200">
-                <p><h3>Samaritan- Your Needmate</h3><br>
-                An android application that aims to aid people in need with its functionalities like sending current location to your emergency contacts using text message or via whatsapp or contacting them directly. Also, using this app, one can locate themselves, nearby police stations, hospitals, etc., in just one click.
-                    <br><br><a href="https://github.com/archanamawale/SAMARITAN_Your_NeedMate" target="_blank">Click here to view the project</a>
-                </p>   
-            </div>
-            <div class="project">
-                <img src="portfolio.jpg" alt="portfolio" width="200" height="200">
-                <p><h3>My Portfolio</h3><br>
-                Created a portfolio website using my skills on HTML and CSS<br><br>
-                    <a href="https://archanamawale.github.io/my_po/" target="_blank">Click here to view the project</a>
-                </p>
-            </div>
-        </div>
-    </section>--->
 
-<section id="technicalskills">
-    <div class="container">
-        <h2 style="color: #16aaee;">TECHNICAL SKILLS</h2>
-        <div class="tech">
-            <ul style="list-style: none; display: inline;">
-                <li><img src="azure.jpg" alt="Azure" width="100" height="100" title="Microsoft Azure"></li>
-                <li><img src="powerplatform.jpg" width="100" height="100" title="Microsoft Power Platform"></li>
-                <li><img src="ms office.jpg" width="100" height="100" title="MS Office"></li>
-                <li><img src="c&c++.jpg" width="100" height="100" title="C & C++"></li>
-                <li><img src="java.png" width="100" height="100" title="Java"></li>
-            </ul>
-        
-    </div>
-</section>
-<br><br>
-<hr>
+                    <div class="col">
+                        <div class="card h-100" style="justify-content: center;">
+                            <div class="card-body">
+                                <h5 class="card-title text-danger fw-bold" style="text-align: center;">Updating Announcements:</h5><hr>
+                                <p class="card-text">Once the announcement is created, in the tabular view, click on <img src="edit.JPG"> to edit the announcement. After making the desired updates, save the updates.</p>
+                            </div>
+                        </div>
+                    </div>
 
-<section id="skills">
-    <div class="container">
-        <h2 style="color: #16aaee;">SKILLS & ACHIEVEMENTS</h2>
-        <ul style="list-style: none; display: inline-table;">
-            <li><strong>SKILLS</strong></li><br>
-            <li>Communication</li>
-            <li>Ability to work under pressure</li>
-            <li>Decision Making</li>
-            <li>Problem Solving</li>
-            <li>Presentation</li>
-        </ul>
-        <ul style="list-style: none; display: inline-table;">
-            <li><strong>ACHIEVEMENTS</strong></li><br>
-            <li>Sucessfully completed Industry oriented project in android</li>
-            <li>Received Java level 1 certification from Cambridge Certification Authority (Score: 95%)</li>
-            <li>Received Director reference certificate from Pinnaculum InfoTec Ltd. INDIA</li>
-            <li>Successfully cleared TCS Elevate Wings 1- DIGITAL CADRE</li>
-            <li>Created my first portfol</li>
-        </ul>
-    </div>
-</section>
-<hr>
+                    <div class="col">
+                        <div class="card h-100" style="justify-content: center;">
+                            <div class="card-body">
+                                <h5 class="card-title text-success fw-bold" style="text-align: center;">Viewing Announcements:</h5><hr>
+                                <p class="card-text">To see how the announcement will be visible to the intended users, click on <img src="view.JPG"></p>
+                            </div>
+                        </div>
+                    </div>
 
-<section id="hobbies">
-    <div class="container">
-        <h2 style="color: #16aaee;">HOBBIES</h2>
-        <ul style="list-style: none; display: inline-table;">
-            <li>Playing Badminton | Zonal level Player</li>
-            <li>Sketching & drawing</li>
-            <li>Calligraphy</li>
-        </ul>
-    </div>
-</section>
-<hr>
-
-    <section id="contact">
-        <div class="container">
-            <h2 style="color: #16aaee;">CONTACT ME</h2>
-            <form class="row g-3">
-                <div class="col-md-4">
-                  <label for="validationServer01" class="form-label">First name</label>
-                  <input type="text"  id="validationServer01" required>
-                
-                </div>
-                <div class="col-md-4">
-                  <label for="validationServer02" class="form-label">Last name</label>
-                  <input type="text"  id="validationServer02" required>
+                    <div class="col">
+                        <div class="card h-100" style="justify-content: center;">
+                            <div class="card-body">
+                                <h5 class="card-title text-info fw-bold" style="text-align: center;">Deleting Announcements:</h5><hr>
+                                <p class="card-text">The announcements that are no longer required or added mistakenly can be deleted by clicking on <img src="delete.JPG">. <br><i>Please note that once the announcements are deleted cannot be recovered.</i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><br><br>
     
-                </div>
-                <div class="col-md-4">
-                  <label for="validationServerUsername" class="form-label">Email</label>
-                  <div class="input-group has-validation">
-                    
-                    <input type="text" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-                    
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <textarea name="message" placeholder="Your Message" style="width: 500px; height: 100px;" required></textarea>
-                  
-                </div>
-                
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback">
-                    <label class="form-check-label" for="invalidCheck3">
-                      Subcribe to Newsletters!
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">Submit form</button>
-                </div>
-              </form>
-            
-            
-            
-            <!--<form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" style="width: 500px;"><br>
-                <input type="email" name="email" placeholder="Your Email"style="width: 500px;"><br>
-                <textarea name="message" placeholder="Your Message" style="width: 500px; height: 100px;"></textarea>
-                <br><input type="submit" value="Submit">
-            </form> -->
-        </div>
-    </section>
+                <h5 class="text-primary fw-bold">VISIBILITY CONDITIONS:</h5>
+                    <ul>
+                        <li>At present, the amount of active announcements banners are limited to three at a time.</li>
+                        <li>Announcements will be visible based on the duration set on them and will be labelled as follows.<br>
+                            <b>Active:</b> If the present date falls between the start date and the end date of the announcement.<br>
+                            <b>Upcoming:</b> If the start date of the announcement is in near future.<br>
+                            <b>Expired:</b> If the end date of the announcement has passed.</li>
+                        <li> You can opt for either of the visibility options for the announcement banners to be displayed:<br>
+                            <b>Global:</b> This will display the announcement within the whole application.<br>
+                            <b>Single Page:</b> This will limit the announcement to a specific page.</li>
+                    </ul><br>
 
+                <h5 class="text-primary fw-bold">DATES & TIMEZONES:</h5>
+                Announcements are intially timestamped in your default timezone i.e., you will be able to set the start date and end date of the announcement as per your timezone.
+                However, you will be able to see the announcement's equivalent date and time adjusted in CET timezone just below the respective fields so as to ensure clarity, consistency, and fostering coordination accross different locations around the globe.
+                <br> <br>
 
-<footer>
-    <p style="text-align: center; text-decoration: solid;">&copy;2024 Archana Mawale | All rights reserved.</p>
-</footer>
+                 <h5 class="text-primary fw-bold">ANNOUNCEMENT BANNERS:</h5>
+                    <ul>
+                        <li>Announcements will show up at the top of the page as per the visibility set on it whether Global or Single Page.</li>
+                        <li>The colour of the banners specifies the type of announcements- <span style="background-color:skyblue">&nbsp;<b>Info</b>&nbsp;</span> or <span style="background-color: yellow;"> &nbsp;<b>Warning</b>&nbsp; </span></li>
+                        <li>To view the content in detail, click on <span style="color:blue;"><i>Read More...</i></span> on the announcement banner displayed on the top of the page.</li>
+                        <li>To hide the announcement banner, click on <button type="button" class="btn-close" aria-label="Close"></button> on the top right corner of the banner. However, you can log in to new browsing session or via incognito mode (Chrome)/ inPrivate window (Edge), if you wish to recheck the announcement.</li>
+                    </ul>
+            <hr>
+            <footer style="text-align: center; padding-bottom: 20px;"><i>Simplify communication and enhance collaboration with <span style="color: darkred;"><b>ANNOUNCEMENTS!</b></i></span></footer>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    </body>
+   
 </html>
